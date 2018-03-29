@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+.sblock {
+	width: 1200 px;
+	height: 800 px;
+	float:left;
+	margin-bottom:20px;
+}
+.animate-box dt {
+    border-left: 8px solid #7ac143;
+    font-size: 16px;
+    color: #333;
+    padding-left: 20px;
+    margin-top: 30px;
+	margin-right:50px;
+	
+    line-height: 1.6em;
+}
+
+.sblock h3 {
+	margin-bottom:0px;
+}
+.s1 {
+    margin-top: 10px;
+	color:#333;
+	font-family:"宋体";
+	font-size:14px;
+	margin-right: 50px;
+	
+	
+}
+
+.s2 {
+    margin-top: 15px;
+	text-align:right;
+   
+    
+}
+
+.s2 a {
+    color: #333;
+	font-size:14px;
+	margin-left: 1050px;
+	font-family:"微软雅黑";
+   /* vertical-align: baseline;*/
+    cursor: pointer;
+}
+
+.s2 a:hover{
+	color:#7ac143;
+}

@@ -1,0 +1,148 @@
+/******************************
+EXAMPLE STYLES
+******************************/
+.noscroll {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+/* overlay2 */
+.overlay2 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  z-index: 9999;
+  visibility: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrap {
+  display: block;
+  width: 80%;
+  background:#fff;
+}
+
+.close {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  font-size: 36px;
+}
+
+/* Main nav */
+.nav_2{
+	 width: 80%;
+  max-width: 420px;
+  margin: 90px auto 90px;
+  font-size: 33px;
+}
+.nav_2 nav {
+  width: 80%;
+  max-width: 420px;
+  margin: 90px auto 90px;
+  font-size: 33px;
+}
+
+.nav_2 .nav-el {
+  position: relative;
+  display: block;
+  width: 20.5%;
+  padding-bottom: 20.5%;
+  color: white;
+  z-index: 10;
+  
+  /* Placements */
+}
+.nav_2 .nav-el [class^="icon-"], .nav_2 .nav-el [class*=" icon-"] {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  line-height: 0;
+  margin-left: -0.5em;
+}
+.nav_2 .nav-el.active_reverse {
+  z-index: 11;
+  background: transparent;
+}
+.nav_2 .nav-el.inactive {
+  pointer-events: none;
+  cursor: default;
+}
+.nav_2 .nav-el:nth-of-type(2n+1) {
+  float: left;
+}
+.nav_2 .nav-el:nth-of-type(n+3) {
+  margin-top: 5%;
+}
+
+/* A fix for Safari and .nav-el z-index:
+	when animation starts, the square appear bellow other .nav-el
+  	even if it has a bigger z-index */
+.demo3_cont {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* Space adjustment  */
+@media only screen and (min-width: 520px) {
+  .nav_2 nav {
+    font-size: 48px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .overlay2 .wrap {
+    margin: 150px auto 0;
+  }
+}
+/******************************
+COLORS
+******************************/
+/* demo1 */
+.dm-demo1 {
+  background: #f3f3f3;
+}
+.dm-demo1 .button {
+  color: #1abc9c;
+  background: #16a085;
+}
+.dm-demo1 .button:hover {
+  background-color: #107360;
+}
+.dm-demo1 .overlay2 {
+  background-color: #107360;
+}
+.dm-demo1 .nav_2 .nav-el {
+  background-color: #7ac143;
+  margin-right:20px;
+  transition: background-color .3s ease-in;
+  -moz-transition: background-color .3s ease-in;
+  -webkit-transition: background-color .3s ease-in;
+}
+.dm-demo1 .nav_2 .nav-el:hover, .dm-demo1 .nav_2 .nav-el.active {
+  background: #107360;
+}
+.dm-demo1 .nav_2 .nav-el.active {
+  z-index: 11;
+}
+.dm-demo1 .backtoarticle {
+  border-color: #16a085;
+  color: #16a085;
+}
+.dm-demo1 .backtoarticle:hover {
+  color: #107360;
+  border-color: #107360;
+}
+.prompt{
+	
+	font-size:16px;
+	font-family:"宋体";
+
+	background:#f3f3f3;
+	color:#7ac143;
+}

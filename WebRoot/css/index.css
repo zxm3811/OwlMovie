@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+.index_name{
+padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    font-size: 24px;
+	font-family:"Aa榴莲爸爸";
+}
